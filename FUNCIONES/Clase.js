@@ -1,3 +1,21 @@
+//Numero Perfecto
+function perfect(num){
+    let suma=0;
+    for (let i = 1; i < num; i++ ){
+        if (num%i==0){
+            suma=suma+i;
+        }
+    }
+if (suma==num) {
+    return `${num} es perfecto`;
+}
+else{
+    return `${num} No es perfecto`
+}
+}
+
+console.log(perfect(28))
+
 //Verificar si es Escaleno, Isoceles, Escaleno
 function triangulo(a,b,c){
     if(a!=b && b!=c){
@@ -27,7 +45,7 @@ function divisores(introduce){
 
 divisores(5);
 
-//NUMERO PRIMO
+//
 
 
 
@@ -46,4 +64,3 @@ if (divisores.length<3){
 }
 
 Primo(5)
-	

@@ -1,3 +1,7 @@
+/*Determinar si un número es o no es perfecto. Un numero es
+perfecto si la suma de sus divisores sin incluir el propio
+número es igual a este */
+
 var numero = 1000;
 var sumadivisores = 0;
 var cantidadperfectos = 0;
@@ -9,9 +13,9 @@ for(let i = 1; i <= numero; i+=1){
         }
     }
     if(sumadivisores === i){
-        console.log(i + 'es un numero perfecto')
+        console.log(i +   'es un numero perfecto')
         cantidadperfectos += 1;
     }
     sumadivisores = 0
 }
-console.log(' hay' + cantidadperfectos+ ' numeros perfectos')
+console.log(' hay'   + cantidadperfectos+ ' numeros perfectos')

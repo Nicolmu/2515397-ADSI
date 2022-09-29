@@ -3,3 +3,13 @@ de los n primeros números naturales (1 + 2 + 3 + 4…..)
 exceda de una cantidad (máximo) introducida por el teclado.
 Es decir cuantos números de la serie de los naturales debo
 sumar para superar el dato máximo. */
+
+var arreglo=[]
+function llenararreglo(x){
+   
+    for (let i = 0; i <10 ;i++) {
+        x[i]= Math.round(Math.random ()*(1-9)+9)
+        
+}
+}
+llenararreglo(arreglo)

@@ -1,5 +1,5 @@
 
-/*Genere una medida de temperatura en grados celcius de forma aleatoria y conviertala a Fahrenheit, Kelvin y Rankine.*/
+
 
 var a= Math.round(Math.random() * 100);
 var b= Math.round(Math.random() * 100);

@@ -108,7 +108,7 @@ function pyramid(numPisos) {
       }
   
       for (let j = 0; j < i + 1; j++) {
-        piso = piso + '*';
+        piso =  '*' + piso ;
       }
       console.log(piso);
     }
